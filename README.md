@@ -66,6 +66,7 @@ STATICFILES_DIRS = (
 
 # Getting started:
 ```
+install mysql
 sudo easy_install pip
 sudo pip install virtualenv
 virtualenv env --python python2.7
