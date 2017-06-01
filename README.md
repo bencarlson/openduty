@@ -67,6 +67,9 @@ STATICFILES_DIRS = (
 # Getting started:
 ```
 install mysql
+create 'openduty' user, identified by 'dutyfree'
+create 'openduty' database
+grant all to 'openduty' user on 'openduty' database
 sudo easy_install pip
 sudo pip install virtualenv
 virtualenv env --python python2.7
